@@ -1,0 +1,7 @@
+.icon-white {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(230deg) brightness(105%) contrast(100%);
+  }
+
+  /* p{
+    color: white !important;
+  } */

@@ -1,0 +1,84 @@
+.volunteer-form {
+    max-width: 1800px;
+    margin: 20px auto; /* Add margin to create space */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .volunteer-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .volunteer-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .volunteer-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .volunteer-form input[type="text"],
+  .volunteer-form input[type="email"],
+  .volunteer-form input[type="password"],
+  .volunteer-form select {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .volunteer-form select[multiple] {
+    height: 120px;
+  }
+  
+  .volunteer-form button[type="submit"] {
+    padding: 10px;
+    background-color: rgb(1,99,172);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .volunteer-form button[type="submit"]:hover {
+    background-color: white;
+    color: rgb(1,99,172);
+    border:black;
+    border-radius: 4px;
+  }
+  
+  /* Custom styling for select dropdown */
+ /* Custom styling for select dropdown */
+.volunteer-form select {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    background-size: 16px 16px;
+  }
+  
+  .volunteer-form select::-ms-expand {
+    display: none;
+  }
+  
+  .volunteer-form select option {
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .select-icon {
+    display: none;
+  }
+  

@@ -1,0 +1,14 @@
+/* styles.css */
+.chart-container {
+    /* max-width: 500px !important; */
+    /* max-height: 500px; */
+    width: 580px !important;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  

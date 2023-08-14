@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: rgb(1, 99, 172);
+  color: #fff;
+  height: 100px;
+}
+
+.logo-image {
+  width: 150px;
+  height: auto;
+  padding: 20px;
+}
+
+.topnav {
+  display: flex;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.nav-link {
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-link:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.nav-link.active {
+  color: white;
+}
+
+.button {
+  height: 33px;
+  width: 90px;
+  font-weight: bolder;
+  color: rgb(1, 99, 172);
+  background-color: #fff;
+  cursor: pointer;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: rgb(1, 99, 172);
+  color: white;
+}
+
+.login-link {
+  margin-left: 10px;
+}
+
+.signup-link {
+  margin-left: 10px;
+}
+
+.icon {
+  display: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topnav.responsive {
+    max-height: 500px;
+  }
+
+  .nav-link {
+    display: block;
+    padding: 14px 16px;
+  }
+
+  .icon {
+    display: block;
+  }
+}

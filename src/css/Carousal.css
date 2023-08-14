@@ -1,0 +1,30 @@
+.legend {
+    background-color: rgba(255, 255, 255, 0.8) !important; /* White transparent background */
+    color: rgb(1, 99, 172) !important; /* Text color */
+    padding: 20px;
+  }
+  
+  .legend h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .legend p {
+    font-size: 16px;
+    color: #717275 !important;
+    margin-bottom: 10px;
+  }
+  
+  .legend button {
+    background-color:  rgb(1, 99, 172);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  .legend button:hover {
+    background-color: #597081;
+  }
+  
